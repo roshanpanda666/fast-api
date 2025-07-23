@@ -17,7 +17,7 @@ todo = Todo(**{
 new_todo_data={
     "title":input("title: "),
     "description":input("description: "),
-    "complete":input("completed ? type True/False: "),
+    "complete":input("completed ?: "),
 
 }
 
