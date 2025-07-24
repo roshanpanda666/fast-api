@@ -1,9 +1,10 @@
+# posting new data
 import asyncio
 from routes.route import create_todo
 import requests
 from models.todos import Todo
 
-response=requests.get("http://127.0.0.1:8000/latest")
+response=requests.get("https://fast-api-1-uh0r.onrender.com/latest")
 todo_data=response.json()
 
 # Convert single dict to Todo object
